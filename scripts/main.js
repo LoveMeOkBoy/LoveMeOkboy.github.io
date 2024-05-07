@@ -1,3 +1,5 @@
+import { Application } from 'https://cdn.jsdelivr.net/npm/@splinetool/runtime@1.2.6/build/runtime.min.js';
+
 let myImage = document.getElementById("dynamic-img");
 
 myImage.onclick = function () {
@@ -29,6 +31,8 @@ function setUserName() {
   myButton.onclick = function () {
     setUserName();
   };
-  
-  
+
+const canvas = document.getElementById('canvas3d');
+const spline = new Application(canvas);
+spline.load('images/scene.spline');
   
