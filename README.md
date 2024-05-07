@@ -1,1 +1,3 @@
-# LoveMeOkboy.github.io
+# Welcome
+
+![welcome!](.github/example.gif)
